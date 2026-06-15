@@ -1,0 +1,11 @@
+digraph conceptual {
+  graph [label="Graffoo-compatible Conceptual Model", labelloc=t, bgcolor="#f8f5ee", rankdir=LR];
+  node [shape=box, style="filled", fillcolor="#fff6ba", color="#39333a", fontname="Helvetica"];
+  edge [color="#4c466a", fontname="Helvetica", fontsize=10];
+  character [label="frbroo:F38_Character"]; person [label="crm:E21_Person"]; event [label="crm:E5_Event"]; production [label="crm:E12_Production"];
+  artwork [label="crm:E22_Human-Made_Object"]; work [label="frbroo:F1_Work"]; place [label="crm:E53_Place"]; timespan [label="crm:E52_Time-Span"]; concept [label="skos:Concept"];
+  event -> character [label="crm:P31_has_modified"]; event -> person [label="crm:P14_carried_out_by"]; event -> character [label="crm:P94_has_created"];
+  production -> person [label="crm:P14_carried_out_by"]; production -> artwork [label="crm:P108_has_produced"]; production -> place [label="crm:P7_took_place_at"]; production -> timespan [label="crm:P4_has_time-span"];
+  artwork -> character [label="crm:P62_depicts"]; artwork -> event [label="crm:P62_depicts"]; artwork -> place [label="crm:P55_has_current_location"]; artwork -> concept [label="crm:P2_has_type"];
+  work -> character [label="crm:P67_refers_to"]; work -> event [label="crm:P67_refers_to"]; work -> person [label="dcterms:creator"];
+}

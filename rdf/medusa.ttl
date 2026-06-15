@@ -1,0 +1,211 @@
+@prefix medusa: <https://w3id.org/medusaProject/> .
+@prefix person: <https://w3id.org/medusaProject/person/> .
+@prefix place: <https://w3id.org/medusaProject/place/> .
+@prefix org: <https://w3id.org/medusaProject/org/> .
+@prefix item: <https://w3id.org/medusaProject/item/> .
+@prefix event: <https://w3id.org/medusaProject/event/> .
+@prefix concept: <https://w3id.org/medusaProject/concept/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix frbroo: <http://erlangen-crm.org/efrbroo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+medusa: a owl:Ontology ;
+  dcterms:title "Medusa Across Literary and Artistic Sources" ;
+  dcterms:license <https://creativecommons.org/licenses/by/4.0/> .
+
+person:medusa a frbroo:F38_Character ;
+  rdfs:label "Medusa" ;
+  owl:sameAs <https://www.wikidata.org/entity/Q177544> ;
+  dcterms:description "Mortal Gorgon and focus of the project." .
+
+person:perseus a frbroo:F38_Character ;
+  rdfs:label "Perseus" ;
+  owl:sameAs <https://www.wikidata.org/entity/Q130832> .
+
+person:athena a frbroo:F38_Character ;
+  rdfs:label "Athena" ;
+  owl:sameAs <https://www.wikidata.org/entity/Q37122> .
+
+person:poseidon a frbroo:F38_Character ;
+  rdfs:label "Poseidon" ;
+  owl:sameAs <https://www.wikidata.org/entity/Q41127> .
+
+person:pegasus a frbroo:F38_Character ;
+  rdfs:label "Pegasus" ;
+  owl:sameAs <https://www.wikidata.org/entity/Q162797> .
+
+person:chrysaor a frbroo:F38_Character ;
+  rdfs:label "Chrysaor" ;
+  owl:sameAs <https://www.wikidata.org/entity/Q183422> .
+
+person:stheno a frbroo:F38_Character ;
+  rdfs:label "Stheno" ;
+  owl:sameAs <https://www.wikidata.org/entity/Q235419> .
+
+person:euryale a frbroo:F38_Character ;
+  rdfs:label "Euryale" ;
+  owl:sameAs <https://www.wikidata.org/entity/Q177923> .
+
+person:phorcys a frbroo:F38_Character ;
+  rdfs:label "Phorcys" ;
+  owl:sameAs <https://www.wikidata.org/entity/Q183975> .
+
+person:ceto a frbroo:F38_Character ;
+  rdfs:label "Ceto" ;
+  owl:sameAs <https://www.wikidata.org/entity/Q207957> .
+
+person:ovid a crm:E21_Person ;
+  rdfs:label "Ovid" ;
+  owl:sameAs <https://viaf.org/viaf/88342447> .
+
+person:caravaggio a crm:E21_Person ;
+  rdfs:label "Caravaggio" ;
+  owl:sameAs <https://viaf.org/viaf/87679282> .
+
+person:rubens a crm:E21_Person ;
+  rdfs:label "Peter Paul Rubens" ;
+  owl:sameAs <https://viaf.org/viaf/56647196> .
+
+person:snyders a crm:E21_Person ;
+  rdfs:label "Frans Snyders" ;
+  owl:sameAs <https://www.wikidata.org/entity/Q312758> .
+
+person:cellini a crm:E21_Person ;
+  rdfs:label "Benvenuto Cellini" ;
+  owl:sameAs <https://www.wikidata.org/entity/Q183860> .
+
+place:greece a crm:E53_Place ;
+  rdfs:label "Greece" ;
+  owl:sameAs <https://sws.geonames.org/390903/> .
+
+place:libya a crm:E53_Place ;
+  rdfs:label "Libya" ;
+  owl:sameAs <https://sws.geonames.org/2215636/> .
+
+place:florence a crm:E53_Place ;
+  rdfs:label "Florence" ;
+  owl:sameAs <https://sws.geonames.org/3176959/> .
+
+place:vienna a crm:E53_Place ;
+  rdfs:label "Vienna" ;
+  owl:sameAs <https://sws.geonames.org/2761369/> .
+
+place:loggia a crm:E53_Place ;
+  rdfs:label "Loggia dei Lanzi" ;
+  owl:sameAs <https://www.wikidata.org/entity/Q1134557> .
+
+org:gorgons a crm:E74_Group ;
+  rdfs:label "Gorgons" ;
+  owl:sameAs <https://www.wikidata.org/entity/Q182128> .
+
+org:uffizi a crm:E74_Group ;
+  rdfs:label "Uffizi Gallery" ;
+  owl:sameAs <https://www.wikidata.org/entity/Q51252> .
+
+org:khm a crm:E74_Group ;
+  rdfs:label "Kunsthistorisches Museum" ;
+  owl:sameAs <https://www.wikidata.org/entity/Q95569> .
+
+item:metamorphoses a frbroo:F1_Work ;
+  rdfs:label "Metamorphoses" ;
+  owl:sameAs <https://www.wikidata.org/entity/Q184742> .
+
+item:caravaggio_medusa a crm:E22_Human-Made_Object ;
+  rdfs:label "Medusa by Caravaggio" ;
+  owl:sameAs <https://www.uffizi.it/en/artworks/medusa> .
+
+item:rubens_medusa a crm:E22_Human-Made_Object ;
+  rdfs:label "Head of Medusa by Rubens" ;
+  owl:sameAs <https://www.khm.at/kunstwerke/haupt-der-medusa-1626> .
+
+item:cellini_perseus a crm:E22_Human-Made_Object ;
+  rdfs:label "Perseus with the Head of Medusa" ;
+  owl:sameAs <https://www.wikidata.org/entity/Q1451651> .
+
+event:transformation a crm:E5_Event ;
+  rdfs:label "Transformation of Medusa" ;
+  dcterms:description "Athena changes Medusa's hair into snakes." .
+
+event:beheading a crm:E5_Event ;
+  rdfs:label "Beheading of Medusa" ;
+  dcterms:description "Perseus decapitates Medusa using a reflected shield." .
+
+event:emergence a crm:E5_Event ;
+  rdfs:label "Emergence of Pegasus and Chrysaor" ;
+  dcterms:description "Pegasus and Chrysaor emerge after Medusa's beheading." .
+
+event:production_caravaggio a crm:E12_Production ;
+  rdfs:label "Production of Caravaggio's Medusa" .
+
+event:production_rubens a crm:E12_Production ;
+  rdfs:label "Production of Rubens' Head of Medusa" .
+
+event:production_cellini a crm:E12_Production ;
+  rdfs:label "Production of Cellini's Perseus" .
+
+concept:petrification a skos:Concept ;
+  rdfs:label "Petrification" ;
+  owl:sameAs <https://vocab.getty.edu/aat/300056047> ;
+  dcterms:description "Transformation into stone caused by Medusa's gaze or severed head." .
+
+concept:gorgoneion a skos:Concept ;
+  rdfs:label "Gorgoneion" ;
+  owl:sameAs <https://www.wikidata.org/entity/Q865233> ;
+  dcterms:description "Apotropaic image of the Gorgon's head." .
+
+concept:apotropaic a skos:Concept ;
+  rdfs:label "Apotropaic protection" ;
+  owl:sameAs <https://vocab.getty.edu/aat/300055892> ;
+  dcterms:description "Protective function intended to avert evil." .
+
+concept:painting a skos:Concept ;
+  rdfs:label "Painting" ;
+  owl:sameAs <https://vocab.getty.edu/aat/300033618> .
+
+concept:sculpture a skos:Concept ;
+  rdfs:label "Sculpture" ;
+  owl:sameAs <https://vocab.getty.edu/aat/300047090> .
+
+org:gorgons crm:P107_has_current_or_former_member person:medusa .
+org:gorgons crm:P107_has_current_or_former_member person:stheno .
+org:gorgons crm:P107_has_current_or_former_member person:euryale .
+person:medusa crm:P152_has_parent person:phorcys .
+person:medusa crm:P152_has_parent person:ceto .
+event:transformation crm:P14_carried_out_by person:athena .
+event:transformation crm:P12_occurred_in_the_presence_of person:poseidon .
+event:transformation crm:P31_has_modified person:medusa .
+event:beheading crm:P31_has_modified person:medusa .
+event:beheading crm:P14_carried_out_by person:perseus .
+event:emergence crm:P94_has_created person:pegasus .
+event:emergence crm:P94_has_created person:chrysaor .
+item:metamorphoses dcterms:creator person:ovid .
+item:metamorphoses crm:P67_refers_to person:medusa .
+item:metamorphoses crm:P67_refers_to event:transformation .
+item:metamorphoses crm:P67_refers_to event:beheading .
+event:production_caravaggio crm:P14_carried_out_by person:caravaggio .
+event:production_caravaggio crm:P108_has_produced item:caravaggio_medusa .
+item:caravaggio_medusa crm:P62_depicts person:medusa .
+item:caravaggio_medusa crm:P55_has_current_location org:uffizi .
+item:caravaggio_medusa crm:P2_has_type concept:painting .
+item:rubens_medusa crm:P2_has_type concept:painting .
+event:production_rubens crm:P14_carried_out_by person:rubens .
+event:production_rubens crm:P14_carried_out_by person:snyders .
+event:production_rubens crm:P108_has_produced item:rubens_medusa .
+item:rubens_medusa crm:P62_depicts person:medusa .
+item:rubens_medusa crm:P67_refers_to item:metamorphoses .
+item:rubens_medusa crm:P55_has_current_location org:khm .
+event:production_cellini crm:P14_carried_out_by person:cellini .
+event:production_cellini crm:P108_has_produced item:cellini_perseus .
+item:cellini_perseus crm:P62_depicts person:perseus .
+item:cellini_perseus crm:P62_depicts person:medusa .
+item:cellini_perseus crm:P62_depicts event:beheading .
+item:cellini_perseus crm:P55_has_current_location place:loggia .
+item:cellini_perseus crm:P2_has_type concept:sculpture .
+person:medusa crm:P130_shows_features_of concept:petrification .
+concept:gorgoneion crm:P138_represents person:medusa .
+concept:gorgoneion crm:P103_was_intended_for concept:apotropaic .

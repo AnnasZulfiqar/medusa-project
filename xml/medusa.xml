@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../scripts/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Medusa Across Literary and Artistic Sources</title>
+        <respStmt><resp>Digital edition and LOD modeling</resp><name>Medusa Project</name></respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>University of Bologna - Information Science and Cultural Heritage project</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Project data and original documentation: CC BY 4.0.</licence>
+          <p>Wikipedia-derived prose is attributed to Wikipedia contributors and remains available under CC BY-SA 4.0.</p>
+        </availability>
+        <date when="2026-06-15">15 June 2026</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <bibl xml:id="src-wikipedia"><title>Medusa</title>, Wikipedia contributors, retrieved <date when="2026-06-15">15 June 2026</date>, <ref target="https://en.wikipedia.org/wiki/Medusa">source page</ref>.</bibl>
+          <bibl xml:id="src-ovid"><author ref="#ovid">Ovid</author>, <title ref="#metamorphoses">Metamorphoses</title>, translated by A. S. Kline, Book IV, 753-803, uploaded course corpus PDF.</bibl>
+          <bibl xml:id="src-khm"><title>Haupt der Medusa</title>, Kunsthistorisches Museum collection record, <ref target="https://www.khm.at/kunstwerke/haupt-der-medusa-1626">source page</ref>.</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc><p>This TEI document encodes a focused Wikipedia-derived corpus and short Ovidian evidence to study how Medusa is represented across literature and art.</p></projectDesc>
+      <classDecl><taxonomy xml:id="entity-types"><category xml:id="myth"><catDesc>Mythological character</catDesc></category><category xml:id="person-type"><catDesc>Historical person</catDesc></category><category xml:id="event-type"><catDesc>Event</catDesc></category><category xml:id="concept-type"><catDesc>Concept</catDesc></category></taxonomy></classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <abstract><p>Research question: How is Medusa represented across literary and artistic sources?</p></abstract>
+      <textClass><keywords><term>Medusa</term><term>Linked Open Data</term><term>TEI</term><term>CIDOC-CRM</term><term>mythology</term><term>art history</term></keywords></textClass>
+    </profileDesc>
+    <revisionDesc><change when="2026-06-15">Initial project edition.</change></revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="medusa" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q177544"><persName>Medusa</persName><note>Mortal Gorgon and focus of the project.</note></person>
+      <person xml:id="perseus" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q130832"><persName>Perseus</persName></person>
+      <person xml:id="athena" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q37122"><persName>Athena</persName><persName type="roman">Minerva</persName></person>
+      <person xml:id="poseidon" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q41127"><persName>Poseidon</persName><persName type="roman">Neptune</persName></person>
+      <person xml:id="pegasus" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q162797"><persName>Pegasus</persName></person>
+      <person xml:id="chrysaor" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q183422"><persName>Chrysaor</persName></person>
+      <person xml:id="stheno" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q235419"><persName>Stheno</persName></person>
+      <person xml:id="euryale" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q177923"><persName>Euryale</persName></person>
+      <person xml:id="phorcys" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q183975"><persName>Phorcys</persName></person>
+      <person xml:id="ceto" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q207957"><persName>Ceto</persName></person>
+      <person xml:id="ovid" role="author" sameAs="https://viaf.org/viaf/88342447"><persName>Ovid</persName></person>
+      <person xml:id="caravaggio" role="artist" sameAs="https://viaf.org/viaf/87679282"><persName>Caravaggio</persName></person>
+      <person xml:id="rubens" role="artist" sameAs="https://viaf.org/viaf/56647196"><persName>Peter Paul Rubens</persName></person>
+      <person xml:id="snyders" role="artist" sameAs="https://www.wikidata.org/entity/Q312758"><persName>Frans Snyders</persName></person>
+      <person xml:id="cellini" role="artist" sameAs="https://www.wikidata.org/entity/Q183860"><persName>Benvenuto Cellini</persName></person>
+    </listPerson>
+    <listPlace>
+      <place xml:id="greece" sameAs="https://sws.geonames.org/390903/"><placeName>Greece</placeName></place>
+      <place xml:id="libya" sameAs="https://sws.geonames.org/2215636/"><placeName>Libya</placeName></place>
+      <place xml:id="florence" sameAs="https://sws.geonames.org/3176959/"><placeName>Florence</placeName></place>
+      <place xml:id="vienna" sameAs="https://sws.geonames.org/2761369/"><placeName>Vienna</placeName></place>
+      <place xml:id="loggia" sameAs="https://www.wikidata.org/entity/Q1134557"><placeName>Loggia dei Lanzi</placeName></place>
+    </listPlace>
+    <listOrg>
+      <org xml:id="gorgons" role="mythologicalGroup" sameAs="https://www.wikidata.org/entity/Q182128"><orgName>Gorgons</orgName></org>
+      <org xml:id="uffizi" role="museum" sameAs="https://www.wikidata.org/entity/Q51252"><orgName>Uffizi Gallery</orgName></org>
+      <org xml:id="khm" role="museum" sameAs="https://www.wikidata.org/entity/Q95569"><orgName>Kunsthistorisches Museum</orgName></org>
+    </listOrg>
+    <listBibl>
+      <bibl xml:id="metamorphoses" type="literaryWork" sameAs="https://www.wikidata.org/entity/Q184742"><author ref="#ovid">Ovid</author><title>Metamorphoses</title></bibl>
+    </listBibl>
+    <listObject>
+      <object xml:id="caravaggio_medusa" type="artwork" sameAs="https://www.uffizi.it/en/artworks/medusa"><objectName>Medusa by Caravaggio</objectName><date when="1597">ca. 1597</date></object>
+      <object xml:id="rubens_medusa" type="artwork" sameAs="https://www.khm.at/kunstwerke/haupt-der-medusa-1626"><objectName>Head of Medusa by Rubens</objectName><date when="1613">ca. 1613</date></object>
+      <object xml:id="cellini_perseus" type="artwork" sameAs="https://www.wikidata.org/entity/Q1451651"><objectName>Perseus with the Head of Medusa</objectName><date from="1545" to="1554">1545-1554</date></object>
+    </listObject>
+    <listEvent>
+      <event xml:id="transformation" type="transformation"><label>Transformation of Medusa</label><desc>Athena changes Medusa's hair into snakes.</desc></event>
+      <event xml:id="beheading" type="death"><label>Beheading of Medusa</label><desc>Perseus decapitates Medusa using a reflected shield.</desc></event>
+      <event xml:id="emergence" type="birth"><label>Emergence of Pegasus and Chrysaor</label><desc>Pegasus and Chrysaor emerge after Medusa's beheading.</desc></event>
+      <event xml:id="production_caravaggio" type="production"><label>Production of Caravaggio's Medusa</label><date when="1597">ca. 1597</date></event>
+      <event xml:id="production_rubens" type="production"><label>Production of Rubens' Head of Medusa</label><date when="1613">ca. 1613</date></event>
+      <event xml:id="production_cellini" type="production"><label>Production of Cellini's Perseus</label><date from="1545" to="1554">1545-1554</date></event>
+    </listEvent>
+    <list type="concepts">
+      <item xml:id="petrification" sameAs="https://vocab.getty.edu/aat/300056047"><label>Petrification</label><desc>Transformation into stone caused by Medusa's gaze or severed head.</desc></item>
+      <item xml:id="gorgoneion" sameAs="https://www.wikidata.org/entity/Q865233"><label>Gorgoneion</label><desc>Apotropaic image of the Gorgon's head.</desc></item>
+      <item xml:id="apotropaic" sameAs="https://vocab.getty.edu/aat/300055892"><label>Apotropaic protection</label><desc>Protective function intended to avert evil.</desc></item>
+      <item xml:id="painting" sameAs="https://vocab.getty.edu/aat/300033618"><label>Painting</label></item>
+      <item xml:id="sculpture" sameAs="https://vocab.getty.edu/aat/300047090"><label>Sculpture</label></item>
+    </list>
+    <listRelation>
+      <relation name="crm:P107_has_current_or_former_member" active="#gorgons" passive="#medusa #stheno #euryale"/>
+      <relation name="crm:P152_has_parent" active="#medusa" passive="#phorcys #ceto"/>
+      <relation name="crm:P14_carried_out_by" active="#transformation" passive="#athena"/>
+      <relation name="crm:P12_occurred_in_the_presence_of" active="#transformation" passive="#poseidon"/>
+      <relation name="crm:P31_has_modified" active="#transformation #beheading" passive="#medusa"/>
+      <relation name="crm:P14_carried_out_by" active="#beheading" passive="#perseus"/>
+      <relation name="crm:P94_has_created" active="#emergence" passive="#pegasus #chrysaor"/>
+      <relation name="dcterms:creator" active="#metamorphoses" passive="#ovid"/>
+      <relation name="crm:P67_refers_to" active="#metamorphoses" passive="#medusa #transformation #beheading"/>
+      <relation name="crm:P14_carried_out_by" active="#production_caravaggio" passive="#caravaggio"/>
+      <relation name="crm:P108_has_produced" active="#production_caravaggio" passive="#caravaggio_medusa"/>
+      <relation name="crm:P62_depicts" active="#caravaggio_medusa" passive="#medusa"/>
+      <relation name="crm:P55_has_current_location" active="#caravaggio_medusa" passive="#uffizi"/>
+      <relation name="crm:P2_has_type" active="#caravaggio_medusa #rubens_medusa" passive="#painting"/>
+      <relation name="crm:P14_carried_out_by" active="#production_rubens" passive="#rubens #snyders"/>
+      <relation name="crm:P108_has_produced" active="#production_rubens" passive="#rubens_medusa"/>
+      <relation name="crm:P62_depicts" active="#rubens_medusa" passive="#medusa"/>
+      <relation name="crm:P67_refers_to" active="#rubens_medusa" passive="#metamorphoses"/>
+      <relation name="crm:P55_has_current_location" active="#rubens_medusa" passive="#khm"/>
+      <relation name="crm:P14_carried_out_by" active="#production_cellini" passive="#cellini"/>
+      <relation name="crm:P108_has_produced" active="#production_cellini" passive="#cellini_perseus"/>
+      <relation name="crm:P62_depicts" active="#cellini_perseus" passive="#perseus #medusa #beheading"/>
+      <relation name="crm:P55_has_current_location" active="#cellini_perseus" passive="#loggia"/>
+      <relation name="crm:P2_has_type" active="#cellini_perseus" passive="#sculpture"/>
+      <relation name="crm:P130_shows_features_of" active="#medusa" passive="#petrification"/>
+      <relation name="crm:P138_represents" active="#gorgoneion" passive="#medusa"/>
+      <relation name="crm:P103_was_intended_for" active="#gorgoneion" passive="#apotropaic"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <body>
+      <div type="corpus" source="#src-wikipedia">
+        <head>Medusa: Myth and Representation</head>
+        <p>In <placeName ref="#greece">Greek</placeName> mythology, <persName ref="#medusa">Medusa</persName> was one of the three <orgName ref="#gorgons">Gorgons</orgName>. Her sisters were <persName ref="#stheno">Stheno</persName> and <persName ref="#euryale">Euryale</persName>, and the three were commonly described as children of <persName ref="#phorcys">Phorcys</persName> and <persName ref="#ceto">Ceto</persName>. Unlike her immortal sisters, Medusa was mortal.</p>
+        <p>Medusa is generally represented with living snakes in place of hair. Her gaze causes <rs ref="#petrification" type="concept">petrification</rs>. The hero <persName ref="#perseus">Perseus</persName> killed her while looking at her reflection in a polished shield. After the <rs ref="#beheading" type="event">beheading of Medusa</rs>, <persName ref="#pegasus">Pegasus</persName> and <persName ref="#chrysaor">Chrysaor</persName> emerged. Perseus later gave the head to <persName ref="#athena">Athena</persName>, who placed it on her aegis.</p>
+        <p>Ancient traditions located the Gorgons in distant lands, including <placeName ref="#libya">Libya</placeName>. In classical antiquity, the image of the Gorgon's head became the <rs ref="#gorgoneion" type="concept">Gorgoneion</rs>, an image associated with <rs ref="#apotropaic" type="concept">apotropaic protection</rs>.</p>
+        <p>A late and influential account appears in <bibl ref="#metamorphoses">Ovid's <title>Metamorphoses</title></bibl>. In this version, <persName ref="#poseidon">Neptune</persName> is associated with Medusa in the temple of <persName ref="#athena">Minerva</persName>, after which the goddess changes Medusa's admired hair into snakes. This <rs ref="#transformation" type="event">transformation</rs> shifts Medusa's representation from beautiful maiden to terrifying figure.</p>
+        <p>Artistic representations emphasize different moments and meanings. <persName ref="#caravaggio">Caravaggio</persName>'s <rs ref="#caravaggio_medusa" type="artwork">Medusa</rs>, held by the <orgName ref="#uffizi">Uffizi Gallery</orgName> in <placeName ref="#florence">Florence</placeName>, presents the severed head on a shield. <persName ref="#rubens">Peter Paul Rubens</persName>'s <rs ref="#rubens_medusa" type="artwork">Head of Medusa</rs>, with animals attributed to <persName ref="#snyders">Frans Snyders</persName>, depicts the aftermath with snakes and blood; it is held by the <orgName ref="#khm">Kunsthistorisches Museum</orgName> in <placeName ref="#vienna">Vienna</placeName>. <persName ref="#cellini">Benvenuto Cellini</persName>'s <rs ref="#cellini_perseus" type="artwork">Perseus with the Head of Medusa</rs> presents the victorious hero and is installed at the <placeName ref="#loggia">Loggia dei Lanzi</placeName>.</p>
+      </div>
+      <div type="literaryEvidence" source="#src-ovid">
+        <head>Ovidian Literary Evidence</head>
+        <p>In Book IV, Perseus narrates how he viewed Medusa in a reflected bronze shield and struck her head from her neck. The passage connects her death with the birth of Pegasus and Chrysaor.</p>
+        <quote source="#src-ovid">"the swift winged horse Pegasus and his brother the warrior Chrysaor, were born from their mother's blood."</quote>
+        <p>Ovid then explains the snakes through a retrospective account of Medusa's beauty and Minerva's response, establishing a literary transformation that strongly shaped later visual culture.</p>
+        <quote source="#src-ovid">"she changed the Gorgon's hair to foul snakes."</quote>
+      </div>
+    </body>
+  </text>
+</TEI>

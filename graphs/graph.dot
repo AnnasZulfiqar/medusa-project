@@ -1,0 +1,16 @@
+digraph medusa_kg {
+  graph [label="Medusa Project Knowledge Graph", labelloc=t, bgcolor="#f8f5ee", overlap=false, splines=true];
+  node [shape=ellipse, style=filled, fontname="Helvetica", color="#493942"];
+  edge [fontname="Helvetica", fontsize=9, color="#777777"];
+  medusa [fillcolor="#d7a7b7"]; perseus [fillcolor="#d7a7b7"]; athena [fillcolor="#d7a7b7"]; poseidon [fillcolor="#d7a7b7"]; pegasus [fillcolor="#d7a7b7"]; chrysaor [fillcolor="#d7a7b7"];
+  transformation [shape=diamond, fillcolor="#f0c879"]; beheading [shape=diamond, fillcolor="#f0c879"]; emergence [shape=diamond, fillcolor="#f0c879"];
+  production_caravaggio [shape=diamond, fillcolor="#f0c879"]; production_rubens [shape=diamond, fillcolor="#f0c879"]; production_cellini [shape=diamond, fillcolor="#f0c879"];
+  metamorphoses [shape=box, fillcolor="#9fc6c3"]; caravaggio_medusa [shape=box, fillcolor="#9fc6c3"]; rubens_medusa [shape=box, fillcolor="#9fc6c3"]; cellini_perseus [shape=box, fillcolor="#9fc6c3"];
+  ovid [fillcolor="#c7d8ee"]; caravaggio [fillcolor="#c7d8ee"]; rubens [fillcolor="#c7d8ee"]; snyders [fillcolor="#c7d8ee"]; cellini [fillcolor="#c7d8ee"];
+  transformation -> medusa [label="modified"]; transformation -> athena [label="carried out by"]; transformation -> poseidon [label="presence"];
+  beheading -> medusa [label="modified"]; beheading -> perseus [label="carried out by"]; emergence -> pegasus [label="created"]; emergence -> chrysaor [label="created"];
+  metamorphoses -> medusa [label="refers to"]; metamorphoses -> transformation [label="refers to"]; metamorphoses -> beheading [label="refers to"]; metamorphoses -> ovid [label="creator"];
+  production_caravaggio -> caravaggio [label="carried out by"]; production_caravaggio -> caravaggio_medusa [label="produced"]; caravaggio_medusa -> medusa [label="depicts"];
+  production_rubens -> rubens [label="carried out by"]; production_rubens -> snyders [label="carried out by"]; production_rubens -> rubens_medusa [label="produced"]; rubens_medusa -> medusa [label="depicts"]; rubens_medusa -> metamorphoses [label="refers to"];
+  production_cellini -> cellini [label="carried out by"]; production_cellini -> cellini_perseus [label="produced"]; cellini_perseus -> medusa [label="depicts"]; cellini_perseus -> perseus [label="depicts"]; cellini_perseus -> beheading [label="depicts"];
+}

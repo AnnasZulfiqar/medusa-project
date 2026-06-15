@@ -1,0 +1,45 @@
+subject,predicate,object,ontology_property,evidence
+medusa,member of,gorgons,crm:P107_has_current_or_former_member,Medusa Wikipedia
+stheno,member of,gorgons,crm:P107_has_current_or_former_member,Medusa Wikipedia
+euryale,member of,gorgons,crm:P107_has_current_or_former_member,Medusa Wikipedia
+medusa,child of,phorcys,crm:P152_has_parent,Medusa Wikipedia
+medusa,child of,ceto,crm:P152_has_parent,Medusa Wikipedia
+transformation,transformed,medusa,crm:P31_has_modified,Ovid Metamorphoses IV
+transformation,carried out by,athena,crm:P14_carried_out_by,Ovid Metamorphoses IV
+transformation,associated with,poseidon,crm:P12_occurred_in_the_presence_of,Ovid Metamorphoses IV
+beheading,carried out by,perseus,crm:P14_carried_out_by,Medusa Wikipedia; Ovid Metamorphoses IV
+beheading,affected,medusa,crm:P31_has_modified,Medusa Wikipedia; Ovid Metamorphoses IV
+beheading,caused,emergence,crm:P17_was_motivated_by,Medusa Wikipedia; Ovid Metamorphoses IV
+emergence,produced,pegasus,crm:P94_has_created,Ovid Metamorphoses IV
+emergence,produced,chrysaor,crm:P94_has_created,Ovid Metamorphoses IV
+medusa,has power,petrification,crm:P130_shows_features_of,Medusa Wikipedia
+gorgoneion,represents,medusa,crm:P138_represents,Medusa Wikipedia
+gorgoneion,has function,apotropaic,crm:P103_was_intended_for,Medusa Wikipedia
+ovid,authored,metamorphoses,dcterms:creator,Metamorphoses
+metamorphoses,refers to,medusa,crm:P67_refers_to,Ovid Metamorphoses IV
+metamorphoses,refers to,transformation,crm:P67_refers_to,Ovid Metamorphoses IV
+metamorphoses,refers to,beheading,crm:P67_refers_to,Ovid Metamorphoses IV
+production_caravaggio,carried out by,caravaggio,crm:P14_carried_out_by,Uffizi record
+production_caravaggio,produced,caravaggio_medusa,crm:P108_has_produced,Uffizi record
+caravaggio_medusa,depicts,medusa,crm:P62_depicts,Uffizi record
+caravaggio_medusa,has type,painting,crm:P2_has_type,Uffizi record
+caravaggio_medusa,current location,uffizi,crm:P55_has_current_location,Uffizi record
+uffizi,located in,florence,crm:P74_has_current_or_former_residence,Uffizi record
+production_rubens,carried out by,rubens,crm:P14_carried_out_by,Kunsthistorisches Museum
+production_rubens,carried out by,snyders,crm:P14_carried_out_by,Kunsthistorisches Museum
+production_rubens,produced,rubens_medusa,crm:P108_has_produced,Kunsthistorisches Museum
+rubens_medusa,depicts,medusa,crm:P62_depicts,Kunsthistorisches Museum
+rubens_medusa,refers to,metamorphoses,crm:P67_refers_to,Kunsthistorisches Museum
+rubens_medusa,has type,painting,crm:P2_has_type,Kunsthistorisches Museum
+rubens_medusa,current location,khm,crm:P55_has_current_location,Kunsthistorisches Museum
+khm,located in,vienna,crm:P74_has_current_or_former_residence,Kunsthistorisches Museum
+production_cellini,carried out by,cellini,crm:P14_carried_out_by,Artwork record
+production_cellini,produced,cellini_perseus,crm:P108_has_produced,Artwork record
+cellini_perseus,depicts,perseus,crm:P62_depicts,Artwork record
+cellini_perseus,depicts,medusa,crm:P62_depicts,Artwork record
+cellini_perseus,depicts,beheading,crm:P62_depicts,Artwork record
+cellini_perseus,has type,sculpture,crm:P2_has_type,Artwork record
+cellini_perseus,current location,loggia,crm:P55_has_current_location,Artwork record
+loggia,located in,florence,crm:P89_falls_within,Artwork record
+gorgons,associated with,libya,crm:P7_took_place_at,Medusa Wikipedia
+medusa,associated with,greece,crm:P7_took_place_at,Medusa Wikipedia

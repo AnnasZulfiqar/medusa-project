@@ -1,0 +1,17 @@
+digraph theoretical {
+  graph [label="Theoretical Model: How is Medusa represented?", labelloc=t, bgcolor="#f8f5ee", rankdir=LR];
+  node [shape=box, style="rounded,filled", fillcolor="#ffffff", color="#5c2b45", fontname="Helvetica"];
+  edge [color="#777777", fontname="Helvetica", fontsize=10];
+  Medusa [fillcolor="#d7a7b7"];
+  WHO [shape=folder, fillcolor="#ead9df"]; WHAT [shape=folder, fillcolor="#ead9df"]; WHERE [shape=folder, fillcolor="#ead9df"]; WHEN [shape=folder, fillcolor="#ead9df"];
+  Perseus; Athena; Ovid; Caravaggio; Rubens; Cellini;
+  Transformation; Beheading; Metamorphoses; Artworks; Gorgoneion;
+  Greece; Libya; Florence; Vienna;
+  Antiquity; "1597"; "ca. 1613"; "1545-1554";
+  WHO -> {Perseus Athena Ovid Caravaggio Rubens Cellini};
+  WHAT -> {Transformation Beheading Metamorphoses Artworks Gorgoneion};
+  WHERE -> {Greece Libya Florence Vienna};
+  WHEN -> {Antiquity "1597" "ca. 1613" "1545-1554"};
+  Medusa -> Transformation [label="undergoes"]; Perseus -> Beheading [label="performs"]; Metamorphoses -> Medusa [label="represents"];
+  Artworks -> Medusa [label="depict"]; Gorgoneion -> Medusa [label="represents"];
+}

@@ -1,0 +1,39 @@
+id,label,status,old_uri,new_uri,reason
+medusa,Medusa,corrected,https://www.wikidata.org/entity/Q177544,https://www.wikidata.org/entity/Q160730,Old Wikidata item represents Horsham; Q160730 represents Medusa from Greek mythology
+perseus,Perseus,verified,https://www.wikidata.org/entity/Q130832,https://www.wikidata.org/entity/Q130832,Verified Wikidata item represents Perseus
+athena,Athena / Minerva,verified,https://www.wikidata.org/entity/Q37122,https://www.wikidata.org/entity/Q37122,Verified Wikidata item represents Athena
+poseidon,Poseidon / Neptune,verified,https://www.wikidata.org/entity/Q41127,https://www.wikidata.org/entity/Q41127,Verified Wikidata item represents Poseidon
+pegasus,Pegasus,verified,https://www.wikidata.org/entity/Q162797,https://www.wikidata.org/entity/Q162797,Verified Wikidata item represents Pegasus
+chrysaor,Chrysaor,corrected,https://www.wikidata.org/entity/Q183422,https://www.wikidata.org/entity/Q320660,Old Wikidata item represents Lieksanjoki; Q320660 represents Chrysaor
+stheno,Stheno,corrected,https://www.wikidata.org/entity/Q235419,https://www.wikidata.org/entity/Q1052877,Old Wikidata item represents Netscape Navigator; Q1052877 represents Stheno
+euryale,Euryale,corrected,https://www.wikidata.org/entity/Q177923,https://www.wikidata.org/entity/Q836140,Old Wikidata item represents auction; Q836140 represents the Gorgon Euryale
+phorcys,Phorcys,corrected,https://www.wikidata.org/entity/Q183975,https://www.wikidata.org/entity/Q200382,Old Wikidata item represents Steingatt mine; Q200382 represents Phorcys
+ceto,Ceto,corrected,https://www.wikidata.org/entity/Q207957,https://www.wikidata.org/entity/Q209489,Old Wikidata item represents Three Jewels; Q209489 represents Ceto
+gorgons,Gorgons,corrected,https://www.wikidata.org/entity/Q182128,https://www.wikidata.org/entity/Q102059,Old Wikidata item represents Giovanni Pico della Mirandola; Q102059 represents the Gorgons
+ovid,Ovid,verified,https://viaf.org/viaf/88342447,https://viaf.org/viaf/88342447,Verified through the VIAF identifier recorded by Wikidata for Ovid
+caravaggio,Caravaggio,verified,https://viaf.org/viaf/87679282,https://viaf.org/viaf/87679282,Verified through the VIAF identifier recorded by Wikidata for Caravaggio
+rubens,Peter Paul Rubens,verified,https://viaf.org/viaf/56647196,https://viaf.org/viaf/56647196,Verified through the VIAF identifier recorded by Wikidata for Peter Paul Rubens
+snyders,Frans Snyders,corrected,https://www.wikidata.org/entity/Q312758,https://www.wikidata.org/entity/Q29231,Old Wikidata item represents Jean-Baptiste de La Salle; Q29231 represents Frans Snyders
+cellini,Benvenuto Cellini,corrected,https://www.wikidata.org/entity/Q183860,https://www.wikidata.org/entity/Q190116,Old Wikidata item represents Zeche Louisenglück; Q190116 represents Benvenuto Cellini
+metamorphoses,Metamorphoses,verified,https://www.wikidata.org/entity/Q184742,https://www.wikidata.org/entity/Q184742,Verified Wikidata item represents Ovid's Metamorphoses
+caravaggio_medusa,Medusa by Caravaggio,corrected,https://www.uffizi.it/en/artworks/medusa,https://www.wikidata.org/entity/Q2293905,Old Uffizi URL returns 404; Q2293905 is the verified Wikidata artwork item
+rubens_medusa,Head of Medusa by Rubens,verified,https://www.khm.at/kunstwerke/haupt-der-medusa-1626,https://www.khm.at/kunstwerke/haupt-der-medusa-1626,Verified current Kunsthistorisches Museum artwork record
+cellini_perseus,Perseus with the Head of Medusa,corrected,https://www.wikidata.org/entity/Q1451651,https://www.wikidata.org/entity/Q599034,Old Wikidata item represents Frauendienst; Q599034 represents Cellini's sculpture
+greece,Greece,verified,https://sws.geonames.org/390903/,https://sws.geonames.org/390903/,Verified GeoNames record represents Greece
+libya,Libya,verified,https://sws.geonames.org/2215636/,https://sws.geonames.org/2215636/,Verified GeoNames record represents Libya
+florence,Florence,verified,https://sws.geonames.org/3176959/,https://sws.geonames.org/3176959/,Verified GeoNames record represents Florence
+vienna,Vienna,verified,https://sws.geonames.org/2761369/,https://sws.geonames.org/2761369/,Verified GeoNames record represents Vienna
+uffizi,Uffizi Gallery,verified,https://www.wikidata.org/entity/Q51252,https://www.wikidata.org/entity/Q51252,Verified Wikidata item represents the Uffizi Gallery
+khm,Kunsthistorisches Museum,verified,https://www.wikidata.org/entity/Q95569,https://www.wikidata.org/entity/Q95569,Verified Wikidata item represents the Kunsthistorisches Museum
+loggia,Loggia dei Lanzi,corrected,https://www.wikidata.org/entity/Q1134557,https://www.wikidata.org/entity/Q839746,Old Wikidata item represents Skiljebo SK; Q839746 represents the Loggia dei Lanzi
+transformation,Transformation of Medusa,unreconciled,,,No sufficiently specific external authority record was verified
+beheading,Beheading of Medusa,unreconciled,,,No sufficiently specific external authority record was verified
+emergence,Emergence of Pegasus and Chrysaor,unreconciled,,,No sufficiently specific external authority record was verified
+production_caravaggio,Production of Caravaggio's Medusa,unreconciled,,,Local production event; no sufficiently specific external authority record was verified
+production_rubens,Production of Rubens' Head of Medusa,unreconciled,,,Local production event; no sufficiently specific external authority record was verified
+production_cellini,Production of Cellini's Perseus,unreconciled,,,Local production event; no sufficiently specific external authority record was verified
+petrification,Petrification,corrected,https://vocab.getty.edu/aat/300056047,https://www.wikidata.org/entity/Q7178803,Old Getty AAT item represents speed; Q7178803 represents petrifaction in mythology and fiction
+gorgoneion,Gorgoneion,corrected,https://www.wikidata.org/entity/Q865233,https://www.wikidata.org/entity/Q1161687,Old Wikidata item represents Châteauneuf-Miravail; Q1161687 represents the gorgoneion amulet
+apotropaic,Apotropaic protection,corrected,https://vocab.getty.edu/aat/300055892,https://www.wikidata.org/entity/Q620591,Old Getty record has no usable concept data; Q620591 represents apotropaic magic
+painting,Painting,verified,https://vocab.getty.edu/aat/300033618,https://vocab.getty.edu/aat/300033618,Verified Getty AAT concept represents paintings
+sculpture,Sculpture,verified,https://vocab.getty.edu/aat/300047090,https://vocab.getty.edu/aat/300047090,Verified Getty AAT concept represents sculpture

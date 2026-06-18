@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="A TEI and Linked Open Data study of Medusa across literature and art"><title>Medusa | A Linked Open Data Project</title><link rel="stylesheet" href="assets/css/style.css"></head>
+<body>
+<header class="hero">
+  <div class="topbar"><strong>MEDUSA / LOD</strong><nav><a href="#corpus">Corpus</a><a href="#models">Models</a><a href="#data">Data</a><a href="#downloads">Downloads</a></nav></div>
+  <div class="hero-copy"><p class="eyebrow">Information Science and Cultural Heritage · University of Bologna</p><h1>Medusa,<br>re-represented.</h1><p class="lede">A Linked Open Data investigation connecting myth, Ovidian literature, museum objects, and changing visual meanings.</p><p class="research"><strong>Research question</strong><br>How is Medusa represented across literary and artistic sources?</p></div>
+  <figure class="hero-artwork">
+    <div class="hero-artwork-frame"><img src="assets/images/caravaggio-medusa-hero.png" alt="Caravaggio's Medusa, painted on a circular shield"></div>
+    <figcaption>Caravaggio, <em>Medusa</em> (c. 1597), Uffizi Gallery</figcaption>
+  </figure>
+</header>
+<main>
+<section id="corpus">
+  <div class="section-head"><div><p class="eyebrow">01 · Study of the domain</p><h2>One figure, many identities</h2></div><p>Medusa moves between categories: mortal Gorgon, transformed woman, defeated monster, powerful severed head, protective emblem, and recurring artistic subject. The corpus connects a focused Wikipedia edition with Ovid's <em>Metamorphoses</em> and museum records.</p></div>
+  <div class="stats"><div class="stat"><strong data-count="38">38</strong>modeled resources</div><div class="stat"><strong data-count="44">44</strong>evidence-based relations</div><div class="stat"><strong data-count="5">5</strong>authority systems</div><div class="stat"><strong data-count="3">3</strong>selected artworks</div></div>
+  <div class="cards">
+    <article class="card"><p class="type">Literary source</p><h3>Ovid, <em>Metamorphoses</em></h3><p>Book IV frames Medusa as once beautiful, recounts her transformation, and connects her death to Pegasus and Chrysaor.</p></article>
+    <article class="card"><p class="type">Painted shield · ca. 1597</p><h3>Caravaggio, <em>Medusa</em></h3><p>The severed head faces the viewer from a shield, collapsing Medusa, mirror, weapon, and self-portrait.</p></article>
+    <article class="card"><p class="type">Painting · ca. 1613</p><h3>Rubens, <em>Head of Medusa</em></h3><p>The aftermath becomes a vivid study of death, snakes, and allegorical victory, explicitly linked by the museum to Ovid.</p></article>
+    <article class="card"><p class="type">Bronze sculpture · 1545-1554</p><h3>Cellini, <em>Perseus</em></h3><p>The Florentine monument emphasizes Perseus's triumph while placing Medusa's body and head at the center of political space.</p></article>
+  </div>
+  <div class="artwork-gallery" aria-label="Selected artworks">
+    <article class="artwork-card">
+      <div class="artwork-image artwork-image-portrait"><img src="assets/images/caravaggio-medusa.jpg" alt="Caravaggio's Medusa painted on a shield" loading="lazy"></div>
+      <div class="artwork-meta">
+        <p class="type">Painted shield</p>
+        <h3><em>Medusa</em></h3>
+        <dl>
+          <div><dt>Artist</dt><dd>Caravaggio</dd></div>
+          <div><dt>Date</dt><dd>c. 1597</dd></div>
+          <div><dt>Medium</dt><dd>Oil painting mounted on a convex wooden shield</dd></div>
+          <div><dt>Location</dt><dd>Uffizi Gallery, Florence</dd></div>
+        </dl>
+        <a class="record-link" href="https://www.uffizi.it/en/artworks/medusa" target="_blank" rel="noopener">View Uffizi authority record <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="artwork-card">
+      <div class="artwork-image artwork-image-landscape"><img src="assets/images/rubens-head-of-medusa.jpg" alt="Head of Medusa by Peter Paul Rubens and Frans Snyders" loading="lazy"></div>
+      <div class="artwork-meta">
+        <p class="type">Painting</p>
+        <h3><em>Head of Medusa</em></h3>
+        <dl>
+          <div><dt>Artists</dt><dd>Peter Paul Rubens and Frans Snyders</dd></div>
+          <div><dt>Date</dt><dd>c. 1613</dd></div>
+          <div><dt>Medium</dt><dd>Oil on panel</dd></div>
+          <div><dt>Location</dt><dd>Kunsthistorisches Museum, Vienna</dd></div>
+        </dl>
+        <a class="record-link" href="https://www.khm.at/kunstwerke/haupt-der-medusa-1626" target="_blank" rel="noopener">View KHM authority record <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="artwork-card">
+      <div class="artwork-image artwork-image-landscape"><img src="assets/images/cellini-perseus-medusa.jpg" alt="Benvenuto Cellini's Perseus holding the head of Medusa" loading="lazy"></div>
+      <div class="artwork-meta">
+        <p class="type">Sculpture</p>
+        <h3><em>Perseus with the Head of Medusa</em></h3>
+        <dl>
+          <div><dt>Artist</dt><dd>Benvenuto Cellini</dd></div>
+          <div><dt>Date</dt><dd>1545–1554</dd></div>
+          <div><dt>Medium</dt><dd>Bronze sculpture</dd></div>
+          <div><dt>Location</dt><dd>Loggia dei Lanzi, Florence</dd></div>
+        </dl>
+        <a class="record-link" href="https://www.wikidata.org/entity/Q1451651" target="_blank" rel="noopener">View artwork authority record <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+  </div>
+  <p class="metadata-note">Artwork metadata is drawn from the museum and authority records already cited in this project. Images are used here as the primary visual documentation supplied for the project.</p>
+</section>
+<section id="models">
+  <div class="section-head"><div><p class="eyebrow">02 · Knowledge organization</p><h2>From questions to ontology</h2></div><p>The theoretical model organizes the subject through WHO, WHAT, WHERE, and WHEN. The conceptual model refactors those natural-language relationships through CIDOC-CRM, FRBRoo, SKOS, Dublin Core Terms, and OWL.</p></div>
+  <div class="model-grid"><figure class="model"><img src="graphs/theoretical-model.svg" alt="Theoretical model"><figcaption>Theoretical model with direct and indirect representational relationships. <a href="graphs/theoretical-model.dot">DOT source</a></figcaption></figure><figure class="model"><img src="graphs/conceptual-model.svg" alt="Conceptual model"><figcaption>Graffoo-compatible conceptual model centered on events and cultural objects. <a href="docs/ontology.md">Modeling rationale</a></figcaption></figure></div>
+</section>
+<section id="data">
+  <div class="section-head"><div><p class="eyebrow">03 · Knowledge representation</p><h2>Structured once, expressed many ways</h2></div><p>The TEI document contains the annotated corpus and a stand-off register of people, places, organizations, works, objects, events, and relationships. Repeatable transformations generate readable HTML and RDF/Turtle.</p></div>
+  <div class="pipeline"><span>Wikipedia + Ovid + museums</span><i>→</i><span>TEI P5</span><i>→</i><span>HTML + RDF</span><i>→</i><span>Knowledge graph</span></div>
+  <div class="viewer-grid"><article class="viewer"><h3>TEI annotation</h3><pre>&lt;p&gt;The hero &lt;persName ref="#perseus"&gt;Perseus&lt;/persName&gt;
+killed &lt;persName ref="#medusa"&gt;Medusa&lt;/persName&gt; while
+looking at her reflection in a polished shield.&lt;/p&gt;</pre><a class="cta" href="html/medusa.html">Open TEI reading view</a></article><article class="viewer"><h3>RDF statement</h3><pre>event:beheading
+  a crm:E5_Event ;
+  crm:P14_carried_out_by person:perseus ;
+  crm:P31_has_modified person:medusa .</pre><a class="cta" href="rdf/medusa.ttl">Open Turtle dataset</a></article></div>
+</section>
+<section id="graph">
+  <div class="section-head"><div><p class="eyebrow">04 · Exploration</p><h2>The graph makes the argument visible</h2></div><p>Texts and artworks do not merely mention Medusa. They select different events, attributes, and meanings. Explore the graph to follow those choices across creators, sources, and objects.</p></div>
+  <div class="model-grid"><figure class="model"><img src="graphs/graph.svg" alt="Medusa project knowledge graph"><figcaption>Core project knowledge graph. Node colors distinguish resource types.</figcaption></figure><div class="card"><p class="type">Interactive graph</p><h3>Trace a resource</h3><p>Select Medusa, an event, a text, or an artwork to isolate its immediate connections and open its authority record.</p><a class="cta" href="graphs/graph.html">Explore knowledge graph</a><p><a href="graphs/mermaid.md">Mermaid version</a> · <a href="graphs/graph.dot">Graphviz DOT</a></p></div></div>
+</section>
+<section id="downloads">
+  <div class="section-head"><div><p class="eyebrow">05 · Documentation and files</p><h2>Inspect, reuse, download</h2></div><p>Every source and derived artifact is available below. Documentation explains selection, authority reconciliation, ontology choices, and the transformation workflow.</p></div>
+  <div class="downloads">
+    <a class="download" href="xml/medusa.xml"><h3>TEI XML</h3><p>Annotated corpus and structured registers.</p></a>
+    <a class="download" href="html/medusa.html"><h3>TEI HTML</h3><p>Readable transformed edition.</p></a>
+    <a class="download" href="rdf/medusa.ttl"><h3>RDF/Turtle</h3><p>CIDOC-CRM and FRBRoo dataset.</p></a>
+    <a class="download" href="data/entities.csv"><h3>Entities CSV</h3><p>Descriptions and authority links.</p></a>
+    <a class="download" href="data/relations.csv"><h3>Relations CSV</h3><p>Evidence-based relationship table.</p></a>
+    <a class="download" href="scripts/tei2html.xsl"><h3>XSLT</h3><p>TEI-to-HTML transformation.</p></a>
+    <a class="download" href="scripts/tei2rdf.py"><h3>TEI-to-RDF Python</h3><p>Deterministic Turtle generator.</p></a>
+    <a class="download" href="docs/ontology.md"><h3>Ontology</h3><p>Classes, properties, and decisions.</p></a>
+    <a class="download" href="docs/methodology.md"><h3>Methodology</h3><p>Corpus and entity-selection process.</p></a>
+    <a class="download" href="docs/sources.md"><h3>Sources</h3><p>Corpus, museums, and authorities.</p></a>
+    <a class="download" href="graphs/graph.dot"><h3>Graphviz DOT</h3><p>Knowledge graph source.</p></a>
+    <a class="download" href="graphs/mermaid.md"><h3>Mermaid</h3><p>Portable diagram source.</p></a>
+    <a class="download" href="assets/images/caravaggio-medusa.jpg"><h3>Artwork Image: Caravaggio</h3><p>Image used in the museum-style artwork card.</p></a>
+    <a class="download" href="assets/images/rubens-head-of-medusa.jpg"><h3>Artwork Image: Rubens</h3><p>Image used in the museum-style artwork card.</p></a>
+    <a class="download" href="assets/images/cellini-perseus-medusa.jpg"><h3>Artwork Image: Cellini</h3><p>Image used in the museum-style artwork card.</p></a>
+    <a class="download" href="README.md"><h3>README</h3><p>Project overview and rebuild commands.</p></a>
+  </div>
+  <div class="card" style="max-width:1250px;margin:22px auto 0"><h3>Complete file manifest</h3><p>
+    <a href="index.html">Homepage</a> ·
+    <a href="assets/css/style.css">CSS</a> ·
+    <a href="assets/js/site.js">JavaScript</a> ·
+    <a href="assets/images/caravaggio-medusa.jpg">Caravaggio artwork image</a> ·
+    <a href="assets/images/rubens-head-of-medusa.jpg">Rubens artwork image</a> ·
+    <a href="assets/images/cellini-perseus-medusa.jpg">Cellini artwork image</a> ·
+    <a href="data/entities.csv">Entities CSV</a> ·
+    <a href="data/relations.csv">Relations CSV</a> ·
+    <a href="docs/methodology.md">Methodology</a> ·
+    <a href="docs/ontology.md">Ontology</a> ·
+    <a href="docs/sources.md">Sources</a> ·
+    <a href="graphs/theoretical-model.dot">Theoretical DOT</a> ·
+    <a href="graphs/theoretical-model.svg">Theoretical SVG</a> ·
+    <a href="graphs/conceptual-model.dot">Conceptual DOT</a> ·
+    <a href="graphs/conceptual-model.svg">Conceptual SVG</a> ·
+    <a href="graphs/graph.dot">Graph DOT</a> ·
+    <a href="graphs/graph.svg">Graph SVG</a> ·
+    <a href="graphs/graph.html">Interactive graph</a> ·
+    <a href="graphs/mermaid.md">Mermaid</a> ·
+    <a href="html/medusa.html">TEI HTML</a> ·
+    <a href="rdf/medusa.ttl">RDF/Turtle</a> ·
+    <a href="scripts/tei2html.xsl">XSLT</a> ·
+    <a href="scripts/tei2rdf.py">TEI-to-RDF Python</a> ·
+    <a href="scripts/build_graphs.py">Graph builder</a> ·
+    <a href="xml/medusa.xml">TEI XML</a> ·
+    <a href="README.md">README</a>.
+  </p></div>
+</section>
+</main>
+<footer><strong>Medusa Linked Open Data Project</strong><br>Created for Information Science and Cultural Heritage, University of Bologna. Wikipedia-derived text: CC BY-SA 4.0. Original project data and documentation: CC BY 4.0.</footer>
+<script src="assets/js/site.js"></script>
+</body></html>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="t d">
+  <title id="t">Visual record card for Rubens' Head of Medusa</title>
+  <desc id="d">Project-created visual surrogate for the Kunsthistorisches Museum record of Rubens' Head of Medusa.</desc>
+  <rect width="900" height="620" fill="#312830"/>
+  <ellipse cx="444" cy="275" rx="190" ry="145" fill="#d8a7b8"/>
+  <g fill="none" stroke="#d39a32" stroke-width="16" stroke-linecap="round">
+    <path d="M272 250c-105-11-141-87-74-132"/>
+    <path d="M292 351c-113 15-168 78-125 143"/>
+    <path d="M604 239c107-30 157-91 114-153"/>
+    <path d="M610 348c109 26 151 95 93 145"/>
+    <path d="M451 128c-11-72 18-111 88-118"/>
+    <path d="M452 421c9 67-23 110-97 128"/>
+  </g>
+  <path d="M330 276c32-43 70-64 114-64s84 21 119 64c-35 42-75 63-119 63s-82-21-114-63z" fill="#fff8ee"/>
+  <circle cx="444" cy="276" r="42" fill="#672e4a"/>
+  <rect x="60" y="500" width="780" height="72" fill="#f8f5ee"/>
+  <text x="84" y="535" font-family="Georgia,serif" font-size="28" font-weight="700" fill="#282229">Rubens, Head of Medusa</text>
+  <text x="84" y="560" font-family="Arial,sans-serif" font-size="17" fill="#672e4a">Painting, ca. 1613. Visual surrogate; see KHM record.</text>
+</svg>

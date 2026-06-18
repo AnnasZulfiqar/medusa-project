@@ -1,0 +1,3 @@
+document.querySelectorAll('[data-count]').forEach(el=>{
+  el.textContent=el.dataset.count;
+});

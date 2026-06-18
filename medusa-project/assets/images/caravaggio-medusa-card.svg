@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="t d">
+  <title id="t">Visual record card for Caravaggio's Medusa</title>
+  <desc id="d">Project-created visual surrogate for the Uffizi record of Caravaggio's Medusa.</desc>
+  <rect width="900" height="620" fill="#251f25"/>
+  <circle cx="450" cy="275" r="178" fill="#c68ca3"/>
+  <circle cx="450" cy="275" r="232" fill="none" stroke="#e6d3d7" stroke-width="16"/>
+  <path d="M269 270c52-76 111-116 181-116s129 40 181 116c-52 77-111 116-181 116s-129-39-181-116z" fill="#f8f5ee" opacity=".9"/>
+  <circle cx="450" cy="270" r="62" fill="#672e4a"/>
+  <path d="M260 137c38 30 57 67 55 110M640 137c-38 30-57 67-55 110M299 459c31-35 70-53 118-55M601 459c-31-35-70-53-118-55" fill="none" stroke="#d39a32" stroke-width="13" stroke-linecap="round"/>
+  <rect x="60" y="500" width="780" height="72" fill="#f8f5ee"/>
+  <text x="84" y="535" font-family="Georgia,serif" font-size="28" font-weight="700" fill="#282229">Caravaggio, Medusa</text>
+  <text x="84" y="560" font-family="Arial,sans-serif" font-size="17" fill="#672e4a">Painted shield, ca. 1597. Visual surrogate; see Uffizi record.</text>
+</svg>

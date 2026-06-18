@@ -35,31 +35,31 @@
   </teiHeader>
   <standOff>
     <listPerson>
-      <person xml:id="medusa" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q160730"><persName>Medusa</persName><note>Mortal Gorgon and focus of the project.</note></person>
+      <person xml:id="medusa" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q177544"><persName>Medusa</persName><note>Mortal Gorgon and focus of the project.</note></person>
       <person xml:id="perseus" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q130832"><persName>Perseus</persName></person>
       <person xml:id="athena" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q37122"><persName>Athena</persName><persName type="roman">Minerva</persName></person>
       <person xml:id="poseidon" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q41127"><persName>Poseidon</persName><persName type="roman">Neptune</persName></person>
       <person xml:id="pegasus" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q162797"><persName>Pegasus</persName></person>
-      <person xml:id="chrysaor" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q320660"><persName>Chrysaor</persName></person>
-      <person xml:id="stheno" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q1052877"><persName>Stheno</persName></person>
-      <person xml:id="euryale" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q836140"><persName>Euryale</persName></person>
-      <person xml:id="phorcys" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q200382"><persName>Phorcys</persName></person>
-      <person xml:id="ceto" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q209489"><persName>Ceto</persName></person>
+      <person xml:id="chrysaor" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q183422"><persName>Chrysaor</persName></person>
+      <person xml:id="stheno" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q235419"><persName>Stheno</persName></person>
+      <person xml:id="euryale" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q177923"><persName>Euryale</persName></person>
+      <person xml:id="phorcys" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q183975"><persName>Phorcys</persName></person>
+      <person xml:id="ceto" role="mythologicalCharacter" sameAs="https://www.wikidata.org/entity/Q207957"><persName>Ceto</persName></person>
       <person xml:id="ovid" role="author" sameAs="https://viaf.org/viaf/88342447"><persName>Ovid</persName></person>
       <person xml:id="caravaggio" role="artist" sameAs="https://viaf.org/viaf/87679282"><persName>Caravaggio</persName></person>
       <person xml:id="rubens" role="artist" sameAs="https://viaf.org/viaf/56647196"><persName>Peter Paul Rubens</persName></person>
-      <person xml:id="snyders" role="artist" sameAs="https://www.wikidata.org/entity/Q29231"><persName>Frans Snyders</persName></person>
-      <person xml:id="cellini" role="artist" sameAs="https://www.wikidata.org/entity/Q190116"><persName>Benvenuto Cellini</persName></person>
+      <person xml:id="snyders" role="artist" sameAs="https://www.wikidata.org/entity/Q312758"><persName>Frans Snyders</persName></person>
+      <person xml:id="cellini" role="artist" sameAs="https://www.wikidata.org/entity/Q183860"><persName>Benvenuto Cellini</persName></person>
     </listPerson>
     <listPlace>
       <place xml:id="greece" sameAs="https://sws.geonames.org/390903/"><placeName>Greece</placeName></place>
       <place xml:id="libya" sameAs="https://sws.geonames.org/2215636/"><placeName>Libya</placeName></place>
       <place xml:id="florence" sameAs="https://sws.geonames.org/3176959/"><placeName>Florence</placeName></place>
       <place xml:id="vienna" sameAs="https://sws.geonames.org/2761369/"><placeName>Vienna</placeName></place>
-      <place xml:id="loggia" sameAs="https://www.wikidata.org/entity/Q839746"><placeName>Loggia dei Lanzi</placeName></place>
+      <place xml:id="loggia" sameAs="https://www.wikidata.org/entity/Q1134557"><placeName>Loggia dei Lanzi</placeName></place>
     </listPlace>
     <listOrg>
-      <org xml:id="gorgons" role="mythologicalGroup" sameAs="https://www.wikidata.org/entity/Q102059"><orgName>Gorgons</orgName></org>
+      <org xml:id="gorgons" role="mythologicalGroup" sameAs="https://www.wikidata.org/entity/Q182128"><orgName>Gorgons</orgName></org>
       <org xml:id="uffizi" role="museum" sameAs="https://www.wikidata.org/entity/Q51252"><orgName>Uffizi Gallery</orgName></org>
       <org xml:id="khm" role="museum" sameAs="https://www.wikidata.org/entity/Q95569"><orgName>Kunsthistorisches Museum</orgName></org>
     </listOrg>
@@ -67,9 +67,9 @@
       <bibl xml:id="metamorphoses" type="literaryWork" sameAs="https://www.wikidata.org/entity/Q184742"><author ref="#ovid">Ovid</author><title>Metamorphoses</title></bibl>
     </listBibl>
     <listObject>
-      <object xml:id="caravaggio_medusa" type="artwork" sameAs="https://www.wikidata.org/entity/Q2293905"><objectName>Medusa by Caravaggio</objectName><date when="1597">ca. 1597</date></object>
+      <object xml:id="caravaggio_medusa" type="artwork" sameAs="https://www.uffizi.it/en/artworks/medusa"><objectName>Medusa by Caravaggio</objectName><date when="1597">ca. 1597</date></object>
       <object xml:id="rubens_medusa" type="artwork" sameAs="https://www.khm.at/kunstwerke/haupt-der-medusa-1626"><objectName>Head of Medusa by Rubens</objectName><date when="1613">ca. 1613</date></object>
-      <object xml:id="cellini_perseus" type="artwork" sameAs="https://www.wikidata.org/entity/Q599034"><objectName>Perseus with the Head of Medusa</objectName><date from="1545" to="1554">1545-1554</date></object>
+      <object xml:id="cellini_perseus" type="artwork" sameAs="https://www.wikidata.org/entity/Q1451651"><objectName>Perseus with the Head of Medusa</objectName><date from="1545" to="1554">1545-1554</date></object>
     </listObject>
     <listEvent>
       <event xml:id="transformation" type="transformation"><label>Transformation of Medusa</label><desc>Athena changes Medusa's hair into snakes.</desc></event>
@@ -80,9 +80,9 @@
       <event xml:id="production_cellini" type="production"><label>Production of Cellini's Perseus</label><date from="1545" to="1554">1545-1554</date></event>
     </listEvent>
     <list type="concepts">
-      <item xml:id="petrification" sameAs="https://www.wikidata.org/entity/Q7178803"><label>Petrification</label><desc>Transformation into stone caused by Medusa's gaze or severed head.</desc></item>
-      <item xml:id="gorgoneion" sameAs="https://www.wikidata.org/entity/Q1161687"><label>Gorgoneion</label><desc>Apotropaic image of the Gorgon's head.</desc></item>
-      <item xml:id="apotropaic" sameAs="https://www.wikidata.org/entity/Q620591"><label>Apotropaic protection</label><desc>Protective function intended to avert evil.</desc></item>
+      <item xml:id="petrification" sameAs="https://vocab.getty.edu/aat/300056047"><label>Petrification</label><desc>Transformation into stone caused by Medusa's gaze or severed head.</desc></item>
+      <item xml:id="gorgoneion" sameAs="https://www.wikidata.org/entity/Q865233"><label>Gorgoneion</label><desc>Apotropaic image of the Gorgon's head.</desc></item>
+      <item xml:id="apotropaic" sameAs="https://vocab.getty.edu/aat/300055892"><label>Apotropaic protection</label><desc>Protective function intended to avert evil.</desc></item>
       <item xml:id="painting" sameAs="https://vocab.getty.edu/aat/300033618"><label>Painting</label></item>
       <item xml:id="sculpture" sameAs="https://vocab.getty.edu/aat/300047090"><label>Sculpture</label></item>
     </list>

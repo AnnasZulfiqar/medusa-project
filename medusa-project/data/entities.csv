@@ -1,0 +1,39 @@
+id,label,type,description,authority_uri,evidence
+medusa,Medusa,Mythological character,"Mortal Gorgon whose changing representation is the project's focus",https://www.wikidata.org/entity/Q177544,Medusa Wikipedia; Ovid Metamorphoses IV
+perseus,Perseus,Mythological character,Hero who beheads Medusa and uses her head,https://www.wikidata.org/entity/Q130832,Medusa Wikipedia; Ovid Metamorphoses IV
+athena,Athena / Minerva,Mythological character,Goddess who transforms Medusa's hair and later bears the Gorgoneion,https://www.wikidata.org/entity/Q37122,Medusa Wikipedia; Ovid Metamorphoses IV
+poseidon,Poseidon / Neptune,Mythological character,Sea god associated with Medusa in Ovid's account,https://www.wikidata.org/entity/Q41127,Medusa Wikipedia; Ovid Metamorphoses IV
+pegasus,Pegasus,Mythological character,Winged horse born from Medusa after her beheading,https://www.wikidata.org/entity/Q162797,Medusa Wikipedia; Ovid Metamorphoses IV
+chrysaor,Chrysaor,Mythological character,Warrior born with Pegasus from Medusa's blood,https://www.wikidata.org/entity/Q183422,Medusa Wikipedia; Ovid Metamorphoses IV
+stheno,Stheno,Mythological character,Immortal sister of Medusa,https://www.wikidata.org/entity/Q235419,Medusa Wikipedia
+euryale,Euryale,Mythological character,Immortal sister of Medusa,https://www.wikidata.org/entity/Q177923,Medusa Wikipedia
+phorcys,Phorcys,Mythological character,Father of Medusa in the common genealogy,https://www.wikidata.org/entity/Q183975,Medusa Wikipedia
+ceto,Ceto,Mythological character,Mother of Medusa in the common genealogy,https://www.wikidata.org/entity/Q207957,Medusa Wikipedia
+gorgons,Gorgons,Mythological group,The three sisters Medusa Stheno and Euryale,https://www.wikidata.org/entity/Q182128,Medusa Wikipedia
+ovid,Ovid,Person,Roman poet and author of Metamorphoses,https://viaf.org/viaf/88342447,Metamorphoses
+caravaggio,Caravaggio,Person,Italian painter of Medusa,https://viaf.org/viaf/87679282,Medusa artwork record
+rubens,Peter Paul Rubens,Person,Flemish painter of Head of Medusa,https://viaf.org/viaf/56647196,Kunsthistorisches Museum
+snyders,Frans Snyders,Person,Artist attributed with the animals in Rubens' Head of Medusa,https://www.wikidata.org/entity/Q312758,Kunsthistorisches Museum
+cellini,Benvenuto Cellini,Person,Sculptor of Perseus with the Head of Medusa,https://www.wikidata.org/entity/Q183860,Artwork record
+metamorphoses,Metamorphoses,Literary work,Ovid's narrative source for Medusa's transformation and beheading,https://www.wikidata.org/entity/Q184742,Uploaded A. S. Kline translation
+caravaggio_medusa,Medusa by Caravaggio,Artwork,"Painted shield depicting Medusa's severed head, ca. 1597",https://www.uffizi.it/en/artworks/medusa,Medusa Wikipedia; Uffizi record
+rubens_medusa,Head of Medusa by Rubens,Artwork,"Painting depicting Medusa's severed head, ca. 1613",https://www.khm.at/kunstwerke/haupt-der-medusa-1626,Kunsthistorisches Museum
+cellini_perseus,Perseus with the Head of Medusa,Artwork,"Bronze sculpture made 1545-1554",https://www.wikidata.org/entity/Q1451651,Artwork record
+greece,Greece,Place,Primary cultural and mythological context,https://sws.geonames.org/390903/,Medusa Wikipedia
+libya,Libya,Place,Ancient traditions locate the Gorgons in Libya,https://sws.geonames.org/2215636/,Medusa Wikipedia
+florence,Florence,Place,Current location of two selected artworks,https://sws.geonames.org/3176959/,Artwork records
+vienna,Vienna,Place,Current location of Rubens' Head of Medusa,https://sws.geonames.org/2761369/,Kunsthistorisches Museum
+uffizi,Uffizi Gallery,Organization,Museum holding Caravaggio's Medusa,https://www.wikidata.org/entity/Q51252,Uffizi record
+khm,Kunsthistorisches Museum,Organization,Museum holding Rubens' Head of Medusa,https://www.wikidata.org/entity/Q95569,Kunsthistorisches Museum
+loggia,Loggia dei Lanzi,Place,Location of Cellini's Perseus,https://www.wikidata.org/entity/Q1134557,Artwork record
+transformation,Transformation of Medusa,Event,Athena changes Medusa's hair into snakes,,Ovid Metamorphoses IV
+beheading,Beheading of Medusa,Event,Perseus decapitates Medusa while looking into a reflected shield,,Medusa Wikipedia; Ovid Metamorphoses IV
+emergence,Emergence of Pegasus and Chrysaor,Event,Pegasus and Chrysaor are born from Medusa after the beheading,,Medusa Wikipedia; Ovid Metamorphoses IV
+production_caravaggio,Production of Caravaggio's Medusa,Event,Production event for Caravaggio's painted shield,,Uffizi record
+production_rubens,Production of Rubens' Head of Medusa,Event,Production event for Rubens' painting,,Kunsthistorisches Museum
+production_cellini,Production of Cellini's Perseus,Event,Production event for Cellini's bronze sculpture,,Artwork record
+petrification,Petrification,Concept,Transformation into stone caused by Medusa's gaze or severed head,https://vocab.getty.edu/aat/300056047,Medusa Wikipedia; Ovid Metamorphoses IV
+gorgoneion,Gorgoneion,Concept,Apotropaic image of the Gorgon's head,https://www.wikidata.org/entity/Q865233,Medusa Wikipedia
+apotropaic,Apotropaic protection,Concept,Protective function intended to avert evil,https://vocab.getty.edu/aat/300055892,Medusa Wikipedia; KHM record
+painting,Painting,Concept,Artwork type used by Caravaggio and Rubens,https://vocab.getty.edu/aat/300033618,Museum records
+sculpture,Sculpture,Concept,Artwork type used by Cellini,https://vocab.getty.edu/aat/300047090,Artwork record

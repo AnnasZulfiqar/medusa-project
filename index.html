@@ -1,10 +1,14 @@
 <!doctype html>
 <html lang="en">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="A TEI and Linked Open Data study of Medusa across literature and art"><title>Medusa | A Linked Open Data Project</title><link rel="stylesheet" href="assets/css/style.css"><style>@media(max-width:850px){.hero{background:linear-gradient(135deg,#f8f5ee 58%,#ead9df)!important}}</style></head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="A TEI and Linked Open Data study of Medusa across literature and art"><title>Medusa | A Linked Open Data Project</title><link rel="stylesheet" href="assets/css/style.css"></head>
 <body>
 <header class="hero">
   <div class="topbar"><strong>MEDUSA / LOD</strong><nav><a href="#corpus">Corpus</a><a href="#models">Models</a><a href="#data">Data</a><a href="#downloads">Downloads</a></nav></div>
   <div class="hero-copy"><p class="eyebrow">Information Science and Cultural Heritage · University of Bologna</p><h1>Medusa,<br>re-represented.</h1><p class="lede">A Linked Open Data investigation connecting myth, Ovidian literature, museum objects, and changing visual meanings.</p><p class="research"><strong>Research question</strong><br>How is Medusa represented across literary and artistic sources?</p></div>
+  <figure class="hero-artwork">
+    <div class="hero-artwork-frame"><img src="assets/images/caravaggio-medusa-hero.png" alt="Caravaggio's Medusa, painted on a circular shield"></div>
+    <figcaption>Caravaggio, <em>Medusa</em> (c. 1597), Uffizi Gallery</figcaption>
+  </figure>
 </header>
 <main>
 <section id="corpus">
@@ -16,11 +20,51 @@
     <article class="card"><p class="type">Painting · ca. 1613</p><h3>Rubens, <em>Head of Medusa</em></h3><p>The aftermath becomes a vivid study of death, snakes, and allegorical victory, explicitly linked by the museum to Ovid.</p></article>
     <article class="card"><p class="type">Bronze sculpture · 1545-1554</p><h3>Cellini, <em>Perseus</em></h3><p>The Florentine monument emphasizes Perseus's triumph while placing Medusa's body and head at the center of political space.</p></article>
   </div>
-  <div class="gallery">
-    <figure><img src="assets/images/caravaggio-medusa-card.svg" alt="Visual record card for Caravaggio's Medusa"><figcaption><strong>Caravaggio, <em>Medusa</em>.</strong> Project-created visual card; metadata linked to the Uffizi record.</figcaption></figure>
-    <figure><img src="assets/images/rubens-medusa-card.svg" alt="Visual record card for Rubens' Head of Medusa"><figcaption><strong>Rubens, <em>Head of Medusa</em>.</strong> Project-created visual card; metadata linked to the Kunsthistorisches Museum record.</figcaption></figure>
-    <figure><img src="assets/images/cellini-perseus-card.svg" alt="Visual record card for Cellini's Perseus"><figcaption><strong>Cellini, <em>Perseus with the Head of Medusa</em>.</strong> Project-created visual card; metadata linked to the artwork authority record.</figcaption></figure>
+  <div class="artwork-gallery" aria-label="Selected artworks">
+    <article class="artwork-card">
+      <div class="artwork-image artwork-image-portrait"><img src="assets/images/caravaggio-medusa.jpg" alt="Caravaggio's Medusa painted on a shield" loading="lazy"></div>
+      <div class="artwork-meta">
+        <p class="type">Painted shield</p>
+        <h3><em>Medusa</em></h3>
+        <dl>
+          <div><dt>Artist</dt><dd>Caravaggio</dd></div>
+          <div><dt>Date</dt><dd>c. 1597</dd></div>
+          <div><dt>Medium</dt><dd>Oil painting mounted on a convex wooden shield</dd></div>
+          <div><dt>Location</dt><dd>Uffizi Gallery, Florence</dd></div>
+        </dl>
+        <a class="record-link" href="https://www.uffizi.it/en/artworks/medusa" target="_blank" rel="noopener">View Uffizi authority record <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="artwork-card">
+      <div class="artwork-image artwork-image-landscape"><img src="assets/images/rubens-head-of-medusa.jpg" alt="Head of Medusa by Peter Paul Rubens and Frans Snyders" loading="lazy"></div>
+      <div class="artwork-meta">
+        <p class="type">Painting</p>
+        <h3><em>Head of Medusa</em></h3>
+        <dl>
+          <div><dt>Artists</dt><dd>Peter Paul Rubens and Frans Snyders</dd></div>
+          <div><dt>Date</dt><dd>c. 1613</dd></div>
+          <div><dt>Medium</dt><dd>Oil on panel</dd></div>
+          <div><dt>Location</dt><dd>Kunsthistorisches Museum, Vienna</dd></div>
+        </dl>
+        <a class="record-link" href="https://www.khm.at/kunstwerke/haupt-der-medusa-1626" target="_blank" rel="noopener">View KHM authority record <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="artwork-card">
+      <div class="artwork-image artwork-image-landscape"><img src="assets/images/cellini-perseus-medusa.jpg" alt="Benvenuto Cellini's Perseus holding the head of Medusa" loading="lazy"></div>
+      <div class="artwork-meta">
+        <p class="type">Sculpture</p>
+        <h3><em>Perseus with the Head of Medusa</em></h3>
+        <dl>
+          <div><dt>Artist</dt><dd>Benvenuto Cellini</dd></div>
+          <div><dt>Date</dt><dd>1545–1554</dd></div>
+          <div><dt>Medium</dt><dd>Bronze sculpture</dd></div>
+          <div><dt>Location</dt><dd>Loggia dei Lanzi, Florence</dd></div>
+        </dl>
+        <a class="record-link" href="https://www.wikidata.org/entity/Q1451651" target="_blank" rel="noopener">View artwork authority record <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
   </div>
+  <p class="metadata-note">Artwork metadata is drawn from the museum and authority records already cited in this project. Images are used here as the primary visual documentation supplied for the project.</p>
 </section>
 <section id="models">
   <div class="section-head"><div><p class="eyebrow">02 · Knowledge organization</p><h2>From questions to ontology</h2></div><p>The theoretical model organizes the subject through WHO, WHAT, WHERE, and WHEN. The conceptual model refactors those natural-language relationships through CIDOC-CRM, FRBRoo, SKOS, Dublin Core Terms, and OWL.</p></div>
@@ -55,18 +99,18 @@ looking at her reflection in a polished shield.&lt;/p&gt;</pre><a class="cta" hr
     <a class="download" href="docs/sources.md"><h3>Sources</h3><p>Corpus, museums, and authorities.</p></a>
     <a class="download" href="graphs/graph.dot"><h3>Graphviz DOT</h3><p>Knowledge graph source.</p></a>
     <a class="download" href="graphs/mermaid.md"><h3>Mermaid</h3><p>Portable diagram source.</p></a>
-    <a class="download" href="assets/images/caravaggio-medusa-card.svg"><h3>Artwork Card: Caravaggio</h3><p>Reusable SVG visual surrogate.</p></a>
-    <a class="download" href="assets/images/rubens-medusa-card.svg"><h3>Artwork Card: Rubens</h3><p>Reusable SVG visual surrogate.</p></a>
-    <a class="download" href="assets/images/cellini-perseus-card.svg"><h3>Artwork Card: Cellini</h3><p>Reusable SVG visual surrogate.</p></a>
+    <a class="download" href="assets/images/caravaggio-medusa.jpg"><h3>Artwork Image: Caravaggio</h3><p>Image used in the museum-style artwork card.</p></a>
+    <a class="download" href="assets/images/rubens-head-of-medusa.jpg"><h3>Artwork Image: Rubens</h3><p>Image used in the museum-style artwork card.</p></a>
+    <a class="download" href="assets/images/cellini-perseus-medusa.jpg"><h3>Artwork Image: Cellini</h3><p>Image used in the museum-style artwork card.</p></a>
     <a class="download" href="README.md"><h3>README</h3><p>Project overview and rebuild commands.</p></a>
   </div>
   <div class="card" style="max-width:1250px;margin:22px auto 0"><h3>Complete file manifest</h3><p>
     <a href="index.html">Homepage</a> ·
     <a href="assets/css/style.css">CSS</a> ·
     <a href="assets/js/site.js">JavaScript</a> ·
-    <a href="assets/images/caravaggio-medusa-card.svg">Caravaggio visual card</a> ·
-    <a href="assets/images/rubens-medusa-card.svg">Rubens visual card</a> ·
-    <a href="assets/images/cellini-perseus-card.svg">Cellini visual card</a> ·
+    <a href="assets/images/caravaggio-medusa.jpg">Caravaggio artwork image</a> ·
+    <a href="assets/images/rubens-head-of-medusa.jpg">Rubens artwork image</a> ·
+    <a href="assets/images/cellini-perseus-medusa.jpg">Cellini artwork image</a> ·
     <a href="data/entities.csv">Entities CSV</a> ·
     <a href="data/relations.csv">Relations CSV</a> ·
     <a href="docs/methodology.md">Methodology</a> ·
